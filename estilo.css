@@ -1,4 +1,68 @@
-.Teti{
-    color: rgb(43, 255, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+    background-color: #ffffff;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 50px;
+    background-color: rgb(149, 221, 120);
+
+}
+
+.navbarcolor{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3ch;
+}
+
+.c1{
+    background-color: #00D7F4;
+    margin-right: 2%;
+}
+
+
+
+.TamCarru{
+    display: flex;
+    width: 30%;
+    height: auto;
+    max-height: 500px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.Microtitulos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2cm;
+}
+
+.card1{
+    position: absolute;
+    margin-left: 2cm;
+
+}
+.card2{
+    position: absolute;
+    margin-left: 3cm;
+    left: 300px;
+    top: 691px;
+}
+.card3{
+    position: absolute;
+    margin-left: 4cm;
+    left: 600px;
+    top: 691px;
+}
+.card4{
+    position: absolute;
+    margin-left: 5cm;
+    left: 900px;
+    top: 691px
+}
+.cardh{
+    position: absolute;
+    margin-left: 2cm;
+    top: 200px
+
 }
