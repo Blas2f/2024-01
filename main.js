@@ -33,7 +33,28 @@
     } catch (error) {
         console.error(error);
     }
+
 })();
+(async () => {
+    const url = 'https://google-translate1.p.rapidapi.com/language/translate/v2/languages';
+    const options = {
+        method: 'GET',
+        headers: {
+            'Accept-Encoding': 'application/gzip',
+            'X-RapidAPI-Key': '24e40f3df8msh014f768172b6c7bp1548c6jsn7cd2eea7b61b',
+            'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
+        }
+    };
+    
+    try {
+        const response = await fetch(url, options);
+        const result = await response.text();
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+    }
+})();
+
 
 function validar(){
     var correo = document.getElementById("correo").value;
