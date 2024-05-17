@@ -14,7 +14,7 @@
 </head>
     <header class="header">
         <div class="logo">
-          <a href="../Proyecto HTML/main.html"><img src="../Proyecto HTML/imagenes/logotipo-icono-plantilla-simbolo-planta-suerte-verde-abstracto-arbol-natural-suerte-sobre-fondo-blan.png" alt="Logo principal">
+          <a href="../Proyecto HTML/principal.html"><img src="../Proyecto HTML/imagenes/logotipo-icono-plantilla-simbolo-planta-suerte-verde-abstracto-arbol-natural-suerte-sobre-fondo-blan.png" alt="Logo principal">
           </a>
         </div>
         <nav>
@@ -29,9 +29,9 @@
     <div style="display: grid; justify-content: center; align-items: center;">
         <div id="login" class="loginIni">
             <h1>Inicio Sesion</h1>
-            <input type="text">
-            <input type="password">
-            <button>Iniciar Sesion</button>
+            <input type="email" placeholder="Ingrese su correo " required  id="correo">
+            <input type="password" placeholder="Ingrese su contraseña " required  id="contraseña">
+            <button id="iniciarSesion" onclick="validar()">Iniciar Sesion</button>
         </div>
         <div id="register" class="loginIni">
             <h1>Registro</h1>
@@ -41,6 +41,6 @@
         <button id="regBtn">Registrarse?</button>
     </div>
 
-    <script src="../java.js"></script>
+    <script src="../main.js"></script>
 </body>
 </html>
