@@ -99,27 +99,13 @@ body{
 .Microtitulos{
     margin-left: 2cm;
 }
-
 .card{
-
-    margin-left: 2%;
+    margin:10px;
     float: left;
     width: 25%;
     padding-left: 2cm;
     padding: 0 10px; 
 }
-.cardImg{
-    position: flex;
-
-}
-
-.cardh{
-    position: absolute;
-    margin-left: 2cm;
-    top:200px;
-
-}
-
 .loginIni {
     width: 400px;
     height: 400px;
