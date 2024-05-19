@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: auto;
     padding: 10px 10%;
 }
 
@@ -113,5 +113,22 @@ body{
     background-color: rgb(255, 255, 255);
     display: grid;
     justify-content: center;
+    align-items: center;
+}
+.Registro{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Formulario{
+    position: flex;
+    display: grid; 
+    justify-content: center; 
     align-items: center;
 }
